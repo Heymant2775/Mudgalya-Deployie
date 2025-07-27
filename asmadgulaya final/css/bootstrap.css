@@ -547,6 +547,7 @@ pre code {
 
 .container {
   width: 100%;
+  padding-block: 25px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -4063,6 +4064,7 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -4167,7 +4169,9 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
+
 }
+
 
 .navbar-brand {
   display: inline-block;
